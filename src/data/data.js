@@ -3,6 +3,9 @@ import donationBox from "../assets/donationbox.png";
 import myBlog from "../assets/myblog.png";
 import mausam from "../assets/mausam.png";
 import portfolio from "../assets/portfolio.png"
+import cn from "../assets/cn.png"
+import nav from "../assets/nav.jpg"
+
 
 // skills imports
 import python from "../assets/PYTHON.png";
@@ -32,7 +35,7 @@ export const projects=[
 ],
     "img" : myBlog,
     "github" : "https://github.com/Aviii24x7/Blog-Website",
-    "demo" : ""
+    "demo" : "javascript:void(0);"
     },
 
     {
@@ -41,7 +44,7 @@ export const projects=[
     "desc" : "",
     "img" : donationBox,
     "github" : "https://github.com/Aviii24x7/Django-Razorpay-Integration",
-    "demo" : ""
+    "demo" : "javascript:void(0);"
     },
 
     {
@@ -50,7 +53,7 @@ export const projects=[
     "desc" : "kjdfshilahfhial",
     "img" : mausam,
     "github" : "https://github.com/Aviii24x7/Mausam-App",
-    "demo" : ""
+    "demo" : "javascript:void(0);"
     },
 
     {
@@ -58,25 +61,25 @@ export const projects=[
     "name" : "My Portfolio",
     "desc" : "",
     "img" : portfolio,
-    "github" : "",
-    "demo" : ""
+    "github" : "https://github.com/Aviii24x7/avinash-chauhan",
+    "demo" : "https://aviii24x7.github.io/avinash-chauhan/"
     },
     
     {
     "key" : 5,
     "name" : "Navigate CUH",
     "desc" : "",
-    "img" : portfolio,
-    "github" : "",
-    "demo" : ""
+    "img" : nav,
+    "github" : "https://github.com/Aviii24x7/Navigation_CUH",
+    "demo" : "javascript:void(0);"
     },
     {
     "key" : 6,
     "name" : "Coding Ninjas Student Chapter CUH",
     "desc" : "",
-    "img" : portfolio,
-    "github" : "",
-    "demo" : ""
+    "img" : cn,
+    "github" : "javascript:void(0);",
+    "demo" : "javascript:void(0);"
     }
 
     
