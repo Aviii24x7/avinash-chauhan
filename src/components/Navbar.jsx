@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import {HiOutlineMail} from 'react-icons/hi';
 import { Link } from "react-scroll";
+import logo from "../assets/logo.png"
 
 export default function Navbar() {
 
@@ -16,7 +17,7 @@ export default function Navbar() {
       <div>
       <Link to="home"  smooth={true} duration={500}> 
 
-      <img className="h-4" src="src/assets/logo.png" alt="logo name" />
+      <img className="h-4" src={logo} alt="logo name" />
       
       </Link>
        
