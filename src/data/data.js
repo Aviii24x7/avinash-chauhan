@@ -19,6 +19,7 @@ import linux from "../assets/LINUX.png";
 import ccpp from "../assets/C.png";
 import sql from "../assets/SQL.png";
 import github from "../assets/GITHUB.png";
+import figma from "../assets/FIGMA.png";
 
 //project data
 export const projects=[
@@ -147,7 +148,13 @@ export const skills = [
         'key': 11,
         'name' : "MySQL",
         'img' : sql
+    },
+    {
+        'key': 12,
+        'name' : "Figma",
+        'img' : figma
     }
+
     
     
 ]
