@@ -20,6 +20,9 @@ import ccpp from "../assets/C.png";
 import sql from "../assets/SQL.png";
 import github from "../assets/GITHUB.png";
 import figma from "../assets/FIGMA.png";
+import postman from "../assets/postman.png";
+import putty from "../assets/putty.png";
+import cpanel from "../assets/cpanel.png";
 
 //project data
 export const projects=[
@@ -153,7 +156,23 @@ export const skills = [
         'key': 12,
         'name' : "Figma",
         'img' : figma
-    }
+    },
+    {
+        'key': 13,
+        'name' : "Postman",
+        'img' : postman
+    },
+    {
+        'key': 14,
+        'name' : "puTTY",
+        'img' : putty
+    },
+    {
+        'key': 15,
+        'name' : "cPanel",
+        'img' : cpanel
+    },
+
 
     
     

@@ -1,16 +1,5 @@
 import React from 'react';
 
-import python from "../assets/PYTHON.png";
-import django from "../assets/DJANGO.png";
-import html from "../assets/HTML.png";
-import css from "../assets/CSS.png";
-import js from "../assets/JS.png";
-import tailwind from "../assets/TAILWIND.png";
-import vite from "../assets/VITE.png";
-import linux from "../assets/LINUX.png";
-import ccpp from "../assets/C.png";
-import sql from "../assets/SQL.png";
-import github from "../assets/GITHUB.png";
 
 import { skills } from '../data/data';
 
@@ -44,48 +33,6 @@ const theskills = skills;
     })
 }
             
-
-                {/* <div className='p-4 shadow-md shadow-blue-950 hover:scale-110 duration-500'>
-                    <img className='sm:w-20 w-12  mx-auto' src={django} alt="django icon" />
-                    <h3 className='my-2'>DJANGO</h3>
-                </div>
-                
-                <div className='p-4 shadow-md shadow-blue-950 hover:scale-110 duration-500'>
-                    <img className='sm:w-20 w-12  mx-auto' src={html} alt="html icon" />
-                    <h3 className='my-2'>HTML</h3>
-                </div>
-                <div className='p-4 shadow-md shadow-blue-950 hover:scale-110 duration-500'>
-                    <img className='sm:w-20 w-12  mx-auto' src={css} alt="css icon" />
-                    <h3 className='my-2'>CSS</h3>
-                </div>
-                <div className='p-4 shadow-md shadow-blue-950 hover:scale-110 duration-500'>
-                    <img className='sm:w-20 w-12  mx-auto' src={js} alt="javascript icon" />
-                    <h3 className='my-2'>JavaScript</h3>
-                </div>
-                <div className='p-4 shadow-md shadow-blue-950 hover:scale-110 duration-500'>
-                    <img className='sm:w-20 w-12  mx-auto' src={vite} alt="vite+react icon" />
-                    <h3 className='my-2'>Vite+React</h3>
-                </div>
-                <div className='p-4 shadow-md shadow-blue-950 hover:scale-110 duration-500'>
-                    <img className='sm:w-20 w-12  mx-auto' src={tailwind} alt="tailwind icon" />
-                    <h3 className='my-2'>tailwind</h3>
-                </div>
-                <div className='p-4 shadow-md shadow-blue-950 hover:scale-110 duration-500'>
-                    <img className='sm:w-20 w-12  mx-auto' src={ccpp} alt="C/C++ icon" />
-                    <h3 className='my-2'>C | C++</h3>
-                </div>
-                <div className='p-4 shadow-md shadow-blue-950 hover:scale-110 duration-500'>
-                    <img className='sm:w-20 w-12  mx-auto' src={github} alt="gitHub icon" />
-                    <h3 className='my-2'>GitHub</h3>
-                </div>
-                <div className='p-4 shadow-md shadow-blue-950 hover:scale-110 duration-500'>
-                    <img className='sm:w-20 w-12  mx-auto' src={linux} alt="linux icon" />
-                    <h3 className='my-2'>Linux</h3>
-                </div>
-                <div className='p-4 shadow-md shadow-blue-950 hover:scale-110 duration-500'>
-                    <img className='sm:w-20 w-12  mx-auto' src={sql} alt="SQL icon" />
-                    <h3 className='my-2'>MySql</h3>
-                </div> */}
                 
             </div>
         </div>

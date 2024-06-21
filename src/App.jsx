@@ -9,6 +9,7 @@ import Skills from "./components/Skills"
 import Projects from './components/Projects'
 import Contacts from './components/Contacts'
 import Footer from './components/Footer'
+import Experience from './components/Experience'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Navbar />
     <Home />
     <About />
+    <Experience />
     <Skills />
     <Projects />
     <Contacts />
