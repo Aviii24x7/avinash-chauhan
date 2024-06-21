@@ -121,7 +121,7 @@ export default function Navbar() {
 
           </li>
           <li className="rounded w-[150px] h-[50px] flex justify-between items-center px-[11px] ml-[-100px] hover:ml-[-10px] duration-500 bg-[#522c48]">
-            <a className="flex justify-between items-center w-full text-gray-100 font-semibold" href="src/assets/__Avinash_Resume.pdf" download="Resume-Avinash" type="application/pdf">
+            <a className="flex justify-between items-center w-full text-gray-100 font-semibold" href="avinash-chauhan/src/assets/__Avinash_Resume.pdf" download="Resume-Avinash" type="application/pdf">
 
               Resume <BsFillPersonLinesFill size={30} />
 

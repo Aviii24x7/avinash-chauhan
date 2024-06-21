@@ -13,11 +13,11 @@ export default function Home() {
         </p>
 
         <h1 className="text-3xl sm:text-6xl font-bold text-[#xxd6f6] ">
-          Avinash Chauhan
+          Avinash Chauhan,
         </h1>
 
         <h2 className="text-2xl sm:text-5xl font-bold text-[#8092b0]">
-          I am a Full-Stack Developer specialising in Django.
+        A programmer with keen interest in developing Web Applications
         </h2>
 
         <p className="text-[#8892b0] py-4 max-w-[700px]">
