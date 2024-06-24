@@ -22,7 +22,7 @@ import github from "../assets/GITHUB.png";
 import figma from "../assets/FIGMA.png";
 import postman from "../assets/postman.png";
 import putty from "../assets/putty.png";
-import cpanel from "../assets/cpanel.jpg";
+import cpanel from "../assets/cpanel.png";
 import mongo from "../assets/mongo.png";
 import node from "../assets/node.jpg";
 import express from "../assets/express.png";
