@@ -23,6 +23,9 @@ import figma from "../assets/FIGMA.png";
 import postman from "../assets/postman.png";
 import putty from "../assets/putty.png";
 import cpanel from "../assets/cpanel.png";
+import mongo from "../assets/mongo.png";
+import node from "../assets/node.jpg";
+import express from "../assets/express.png";
 
 //project data
 export const projects=[
@@ -171,6 +174,21 @@ export const skills = [
         'key': 15,
         'name' : "cPanel",
         'img' : cpanel
+    },
+    {
+        'key': 16,
+        'name' : "Node JS",
+        'img' : node
+    },
+    {
+        'key': 17,
+        'name' : "Express JS",
+        'img' : express
+    },
+    {
+        'key': 18,
+        'name' : "Mongo DB",
+        'img' : mongo
     },
 
 
