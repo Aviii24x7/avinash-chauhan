@@ -3,7 +3,7 @@ import donationBox from "../assets/donationbox.png";
 import myBlog from "../assets/myblog.png";
 import mausam from "../assets/mausam.png";
 import portfolio from "../assets/portfolio.png"
-import cn from "../assets/cn.png"
+import todo from "../assets/todo.png"
 import nav from "../assets/nav.jpg"
 
 
@@ -32,59 +32,68 @@ export const projects=[
     {
     "key" : 1,
     "name" : "BlogMine - A Blog Application",
-    "desc" : [
-    
-    'Blogs only Updatable by Administration',
-    'Various sections like posts feed list, detail of post and Saved Later posts',
-    'Email Automation Feature, when visitor/user comments, sends email to them',
-    'Has Comment Feature and Save for Later for visitors',
-    'Sessions are created for save later'
-],
+    "desc" :`• Engineered a comment feature to boost user engagement and integrated email automation for instant
+        notification upon commenting\n
+        • Integrated an email automation system to automatically send notifications to users upon commenting\n
+        • Designed a ”Save for Later” functionality utilizing session management for tracking and managing saved posts`,
     "img" : myBlog,
     "github" : "https://github.com/Aviii24x7/Blog-Website",
     "demo" : "javascript:void(0);"
     },
-
-    {
+{
     "key" : 2,
-    "name" : "Donation Box",
-    "desc" : "",
-    "img" : donationBox,
-    "github" : "https://github.com/Aviii24x7/Django-Razorpay-Integration",
-    "demo" : "javascript:void(0);"
+    "name" : "My Portfolio",
+    "desc" : `• Implemented responsive design and JavaScript objects for optimal front-end display\n
+• Integrated getform.io for email capture and developed an automatic PDF resume downloader\n`,
+    "img" : portfolio,
+    "github" : "https://github.com/Aviii24x7/avinash-chauhan",
+    "demo" : "https://aviii24x7.github.io/avinash-chauhan/"
     },
 
     {
     "key" : 3,
-    "name" : "Mausam Aaj-Kal",
-    "desc" : "kjdfshilahfhial",
-    "img" : mausam,
-    "github" : "https://github.com/Aviii24x7/Mausam-App",
+    "name" : "Payment Gateway API Integrations",
+    "desc" :  `• Developed three robust payment gateway leveraging the Razorpay, Stripe and Paypal payment gateways\n
+    • Ensured comprehensive payment method support, encompassing UPI, Credit Cards, D\ebit Cards, Bank Transfers,
+and more.\n
+• Implemented a seamless transaction experience, providing users with versatile and secure payment options Internationally
+`,
+    "img" : donationBox,
+    "github" : "https://github.com/Aviii24x7/Payment-Gateways-API-Integrations",
     "demo" : "javascript:void(0);"
     },
 
     {
     "key" : 4,
-    "name" : "My Portfolio",
-    "desc" : "",
-    "img" : portfolio,
-    "github" : "https://github.com/Aviii24x7/avinash-chauhan",
-    "demo" : "https://aviii24x7.github.io/avinash-chauhan/"
+    "name" : "Weather API Integration",
+    "desc" : `• Retrieve data from the OpenWeather API by making distinct API calls for the Current Weather and 7-Day Forecast\n
+• Implement a structured approach, ensuring clarity in handling current weather information and extended forecasts 
+independently\n`,
+    "img" : mausam,
+    "github" : "https://github.com/Aviii24x7/Mausam-App",
+    "demo" : "javascript:void(0);"
     },
     
     {
     "key" : 5,
-    "name" : "Navigate CUH",
-    "desc" : "",
+    "name" : "Navigate U",
+    "desc" : `•  Addressed a real-life challenge by facilitating the orientation of new students in navigating campus paths
+• Incorporated additional features like a search engine contributing to a more user-friendly experience\n
+• Dynamically fetched data from the database to present accurate and relevant results\n
+• Implemented Querysets across all database models, optimising the search functionality efficiently`,
     "img" : nav,
-    "github" : "https://github.com/Aviii24x7/Navigation_CUH",
+    "github" : "https://github.com/PrinceLal-LE/NavigateU",
     "demo" : "javascript:void(0);"
     },
+    
     {
     "key" : 6,
-    "name" : "Coding Ninjas Student Chapter CUH",
-    "desc" : "",
-    "img" : cn,
+    "name" : "To Do APP",
+    "desc" : `• Designed and implemented a Django-based to-do app with full CRUD functionality, allowing seamless Create, Read, Update, and Delete operations for task\n
+• Implemented robust authentication and authorization features for secure and personalized task management\n
+• Developed database models using Django ORM\n
+`,
+    "img" : todo,
     "github" : "javascript:void(0);",
     "demo" : "javascript:void(0);"
     }
