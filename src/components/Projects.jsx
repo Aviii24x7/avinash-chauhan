@@ -18,7 +18,7 @@ export default function Projects() {
         <div className="grid sm:grid-cols-2 grid-cols-1 gap-8">
           {works.map((project) => (
             <div className="px-6 pt-5" key={project.key}>
-              <div className="bg-gray-800 h-[600px] rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105">
+              <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105">
                 <div
                   style={{ backgroundImage: `url(${project.img})` }}
                   className="bg-cover bg-center h-64"
