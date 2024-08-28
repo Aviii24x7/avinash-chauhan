@@ -6,7 +6,7 @@ const experiences = [
     {
         key: 1,
         company: 'Negbuy Pvt. Ltd.',
-        duration: 'March 2024 – Current',
+        duration: 'March 2024 – Present',
         position: 'Backend Developer',
         location: 'Sector-3, Noida, UP, India',
         responsibilities: [
@@ -16,7 +16,7 @@ const experiences = [
             'Server Management: Managed backend server hosted on cPanel using PuTTY'
         ],
         logo: negbuy,
-        link: 'https://drive.google.com/file/d/173NdArqtwuGLtiwk_SFpr4YkIdfz0QyI/view'
+        link: 'https://www.negbuy.com'
     },
     {
         key: 2,
@@ -58,7 +58,10 @@ export default function Experience() {
                                             <li key={index} className='mb-1'>{task}</li>
                                         ))}
                                     </ul>
+
+
                                 </div>
+
                             </div>
                         </a>
                     ))}

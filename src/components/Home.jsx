@@ -27,7 +27,13 @@ export default function Home() {
           React for that.
         </p>
 
-        <div>
+        <div className="flex items-start space-x-5">
+        <Link to="experience" smooth={true} duration={500}>
+        <button className="text-white border-2 group rounded-lg px-6 py-3 my-2 flex items-center justify-between hover:border-pink-300 hover:shadow-sm hover:shadow-pink-200 active:scale-95">
+            Experience
+            <HiArrowCircleRight className="ml-3 group-hover:rotate-90 text-2xl duration-700" />
+          </button>
+            </Link>
         <Link to="projects" smooth={true} duration={500}>
         <button className="text-white border-2 group rounded-lg px-6 py-3 my-2 flex items-center justify-between hover:border-pink-300 hover:shadow-sm hover:shadow-pink-200 active:scale-95">
             See Projects

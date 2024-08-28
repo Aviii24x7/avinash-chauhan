@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin,FaCode } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import {HiOutlineMail} from 'react-icons/hi';
+import { SiLeetcode , SiCodingninjas } from "react-icons/si";
 import { Link } from "react-scroll";
 import logo from "../assets/logo.png"
 
@@ -121,9 +122,25 @@ export default function Navbar() {
 
           </li>
           <li className="rounded w-[150px] h-[50px] flex justify-between items-center px-[11px] ml-[-100px] hover:ml-[-10px] duration-500 bg-[#522c48]">
-            <a className="flex justify-between items-center w-full text-gray-100 font-semibold" href="https://drive.google.com/file/d/1KIIIsVczltkvkHjGWLZ2qN32tpiLhMPp/view?usp=drive_link" target="_blank">
+            <a className="flex justify-between items-center w-full text-gray-100 font-semibold" href="https://drive.google.com/file/d/1YqRHinT5IlVhhAskl9Qyg8OkYfsrKFSb/view?usp=sharing" target="_blank">
 
               Resume <BsFillPersonLinesFill size={30} />
+
+            </a>
+
+          </li>
+          <li className="rounded w-[150px] h-[50px] flex justify-between items-center px-[11px] ml-[-100px] hover:ml-[-10px] duration-500 bg-[#1D1B4F]">
+            <a className="flex justify-between items-center w-full text-gray-100 font-semibold" href="https://leetcode.com/u/aviii24x7/" target="_blank">
+
+              LeetCode <SiLeetcode size={30} />
+
+            </a>
+
+          </li>
+          <li className="rounded w-[150px] h-[50px] flex justify-between items-center px-[11px] ml-[-100px] hover:ml-[-10px] duration-500 bg-[#3A544E]">
+            <a className="flex justify-between items-center w-full text-gray-100 font-semibold" href="https://www.naukri.com/code360/profile/6173791e-cb6c-4fa9-8375-9284a18ba9e2" target="_blank">
+
+              CodeStudio <FaCode  size={30} />
 
             </a>
 
