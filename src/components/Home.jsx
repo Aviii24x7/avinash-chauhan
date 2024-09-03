@@ -17,14 +17,12 @@ export default function Home() {
         </h1>
 
         <h2 className="text-2xl sm:text-5xl font-bold text-[#8092b0]">
-        A programmer with keen interest in developing Web Applications
+        A Software Developer  currently engineering Backend APIs for web platforms.
         </h2>
 
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           {" "}
-          I am a perfectionist so I often get stuck in desgining in attempt to
-          make everything perfect. Still I love to do Frontend and I follow
-          React for that.
+          With a strong foundation in backend technologies, I also have a growing passion for frontend development, This site is a reflection of my journey in balancing backend strength with frontend finesse.
         </p>
 
         <div className="flex items-start space-x-5">
