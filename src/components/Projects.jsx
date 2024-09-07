@@ -1,5 +1,4 @@
 import React from "react";
-import myBlog from "../assets/myblog.png";
 import { projects } from "../data/data.js";
 
 export default function Projects() {
@@ -15,36 +14,39 @@ export default function Projects() {
           <p className="py-6 text-lg">// Check out the projects I made</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {works.map((project) => (
             <div className="px-6 pt-5" key={project.key}>
-              <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105">
+              <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform-none transition-all duration-300 hover:scale-105">
                 <div
                   style={{ backgroundImage: `url(${project.img})` }}
                   className="bg-cover bg-center h-64"
                 >
                 </div>
-                <div className="p-6 flex-col">
+                <div className="p-6 flex flex-col">
                   <h3 className="text-2xl font-bold mb-2 text-pink-600">
                     {project.name}
                   </h3>
-                  <div className="text-sm text-gray-300">
+                  <div className="text-sm text-gray-300 mb-4">
                     {project.desc.split('\n').map((line, index) => (
-                      <ul>
-                        <li key={index}>{line}</li>
-                      </ul>
+                      <p key={index} className="mb-2">{line}</p>
                     ))}
                   </div>
+                  <div className="text-sm text-gray-400 mb-4">
+                    <strong className="text-yellow-600">Tech Stack:</strong> {project.techStack}
+                  </div>
                   <div className="mt-4 flex justify-center">
-                    <a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className="text-center rounded-lg px-4 py-2 m-2 bg-pink-600 text-white font-bold text-lg hover:bg-pink-700 transition duration-300">
-                        Demo
-                      </button>
-                    </a>
+                  {project.demo !== "javascript:void(0);" && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className="text-center rounded-lg px-4 py-2 m-2 bg-pink-600 text-white font-bold text-lg hover:bg-pink-700 transition duration-300">
+                          Demo
+                        </button>
+                      </a>
+                    )}
                     <a
                       href={project.github}
                       target="_blank"
