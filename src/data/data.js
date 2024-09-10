@@ -2,9 +2,10 @@
 import donationBox from "../assets/donationbox.png";
 import myBlog from "../assets/myblog.png";
 import mausam from "../assets/mausam.png";
-import portfolio from "../assets/portfolio.png"
-import todo from "../assets/todo.png"
-import nav from "../assets/nav.jpg"
+import portfolio from "../assets/portfolio.png";
+import todo from "../assets/todo.png";
+import nav from "../assets/nav.jpg";
+import chess from "../assets/chess.png";
 
 
 // skills imports
@@ -50,6 +51,16 @@ export const projects = [
         "github": "https://github.com/Aviii24x7/avinash-chauhan",
         "demo": "https://aviii24x7.github.io/avinash-chauhan/",
         "techStack": "Vite+ React.js, Tailwind"
+    },
+    {
+        "key": 3,
+        "name": "Chess.com Clone",
+        "desc": `• Developed a real-time multiplayer chess game using Express, Socket.io, and Chess.js. Implemented dynamic role assignment (White/Black) with spectator mode and FEN-based game state management\n
+        • Ensured smooth gameplay synchronization, handling player moves, turns, sound effects, undo, reset and disconnections efficiently.\n`,
+        "img": chess,
+        "github": "https://github.com/Aviii24x7/Chess.com-Clone",
+        "demo": "https://chessavi-lawtpadx.b4a.run/",
+        "techStack": "Node.js, Express.js, Socket.io"
     },
     {
         "key": 7,
