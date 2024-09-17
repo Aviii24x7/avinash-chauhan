@@ -16,7 +16,7 @@ export default function Footer() {
         <div className='flex flex-col items-center gap-6 justify-between '>
 
         {/* icons */}
-            <a className=" text-[#2f83d2] hover:border-pink-500 hover:shadow-sm hover:shadow-pink-200 hover:text-[#396a98]   mb-6 active:scale-95 flex gap-3 px-12 sm:px-28 py-3 border rounded" href="https://drive.google.com/file/d/1mRqoODQycatJknUZDZiu7DYcYamidAEV/view?usp=sharing" target="_blank">
+            <a className=" text-[#2f83d2] hover:border-pink-500 hover:shadow-sm hover:shadow-pink-200 hover:text-[#396a98]   mb-6 active:scale-95 flex gap-3 px-12 sm:px-28 py-3 border rounded" href="https://drive.google.com/file/d/1kxFV9tuBckbht4aYkQH0zbqt0ZQuIJkI/view?usp=drive_link" target="_blank">
             <button>View Resume </button>
             <button> <BsFillPersonLinesFill size={40}/>   </button>
             </a>

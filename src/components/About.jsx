@@ -15,7 +15,7 @@ export default function About() {
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div className='text-xl sm:text-right sm:text-3xl font-bold'>
-            <p> Hello. I am Avinash Chauhan and I am a Software Developer. Currently, I am pursuing B.Tech. in Computer Science and Engineering from Central University of Haryana.</p>
+            <p> Hello. I am Avinash Chauhan and I am a Software Developer, A 2024 B.Tech. graduate in Computer Science and Engineering from Central University of Haryana.</p>
           </div>
           <div>
             <p className='sm:text-lg text-sm'>I am extremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to have growth oriented and challenging career where I can contribute my knowledge and skills to the organization and enhance my experience through continuous learning and teamwork. I believe in work smart enough that harder work seems easy.</p>  
