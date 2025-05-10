@@ -11,8 +11,8 @@ import chess from "../assets/chess.png";
 // skills imports
 import python from "../assets/PYTHON.png";
 import django from "../assets/DJANGO.png";
-import html from "../assets/HTML.png";
-import css from "../assets/CSS.png";
+// import html from "../assets/HTML.png";
+// import css from "../assets/CSS.png";
 import js from "../assets/JS.png";
 import tailwind from "../assets/TAILWIND.png";
 import vite from "../assets/VITE.png";
@@ -23,11 +23,17 @@ import github from "../assets/GITHUB.png";
 import figma from "../assets/FIGMA.png";
 import postman from "../assets/postman.png";
 import putty from "../assets/putty.png";
-import cpanel from "../assets/cpanel.png";
+// import cpanel from "../assets/cpanel.png";
 import mongo from "../assets/mongo.png";
 import node from "../assets/node.jpg";
-import express from "../assets/express.png";
+// import express from "../assets/express.png";
 import urlshort from "../assets/urlshort.png";
+import lambda from "../assets/lambda.png";
+import cloudwatch from "../assets/cloudwatch.jfif";
+import sns from "../assets/sns.png";
+import sqs from "../assets/sqs.png";
+import api from "../assets/api.jfif";
+import eventbridge from "../assets/eventbridge.jfif";
 
 // project data
 export const projects = [
@@ -133,21 +139,11 @@ export const skills = [
     'img' : python
     },
 
-        {   
+    {   
             
         'key': 2,
         'name' : "Django",
         'img' : django
-    },
-    {
-        'key': 3,
-        'name' : "HTML",
-        'img' : html
-    },
-    {
-        'key': 4,
-        'name' : "CSS",
-        'img' : css
     },
     {
         'key': 5,
@@ -200,19 +196,9 @@ export const skills = [
         'img' : putty
     },
     {
-        'key': 15,
-        'name' : "cPanel",
-        'img' : cpanel
-    },
-    {
         'key': 16,
         'name' : "Node JS",
         'img' : node
-    },
-    {
-        'key': 17,
-        'name' : "Express JS",
-        'img' : express
     },
     {
         'key': 18,
@@ -220,7 +206,42 @@ export const skills = [
         'img' : mongo
     },
 
+    {
+        'key': 19,
+        'name' : "AWS Lambda",
+        'img' : lambda
+    },
 
+    {
+        'key': 20,
+        'name' : "AWS API Gateway",
+        'img' : api
+    },
+    
+    {
+        'key': 21,
+        'name' : "Simple Notification Service",
+        'img' : sns
+    },
+
+    {
+        'key': 22,
+        'name' : "Simple Queue Service",
+        'img' : sqs
+    },
+    
+    {
+        'key': 23,
+        'name' : "AWS EventBridge",
+        'img' : eventbridge
+    },
+
+    
+    {
+        'key': 24,
+        'name' : "AWS CloudWatch",
+        'img' : cloudwatch
+    },
     
     
 ]

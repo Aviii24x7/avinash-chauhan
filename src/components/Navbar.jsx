@@ -122,7 +122,7 @@ export default function Navbar() {
 
           </li>
           <li className="rounded w-[150px] h-[50px] flex justify-between items-center px-[11px] ml-[-100px] hover:ml-[-10px] duration-500 bg-[#522c48]">
-            <a className="flex justify-between items-center w-full text-gray-100 font-semibold" href="https://drive.google.com/file/d/1kxFV9tuBckbht4aYkQH0zbqt0ZQuIJkI/view?usp=drive_link" target="_blank">
+            <a className="flex justify-between items-center w-full text-gray-100 font-semibold" href="https://drive.google.com/file/d/19Y75prPqBKNUIsnbA3Zy0tYotgXlE8Nk/view?usp=sharing" target="_blank">
 
               Resume <BsFillPersonLinesFill size={30} />
 

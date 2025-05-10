@@ -1,12 +1,28 @@
-import React from 'react';
+// import React from 'react';
 import negbuy from "../assets/negbuy.jpg";
 import awc from "../assets/awc.png";
+import mrikal from "../assets/mrikal.png";
 
 const experiences = [
     {
         key: 1,
+        company: 'MRIKAL Studios',
+        duration: 'September 2024 – Present',
+        position: 'Software Developer',
+        location: 'Udyog Vihar, Gurugram, Haryana, India',
+        responsibilities: [
+            'Developing scalable backend solutions for MedVol using an event-driven, pub-sub architecture with isolated instances per client.',
+            'Designed efficient, serverless workflows leveraging AWS services such as API Gateway, Lambda, EventBridge, Step Functions, S3, SNS, and SQS.',
+            'Continuously delivering new features and implementing complex business logic for high-priority projects.',
+            'Collaborating with cross-functional teams to build and deploy impactful, production-ready solutions.'
+        ],
+        logo: mrikal,
+        link: ''
+    },
+    {
+        key: 2,
         company: 'Negbuy Pvt. Ltd.',
-        duration: 'March 2024 – Present',
+        duration: 'March 2024 – September 2024',
         position: 'Backend Developer',
         location: 'Sector-3, Noida, UP, India',
         responsibilities: [
@@ -16,10 +32,10 @@ const experiences = [
             'Server Management: Managed backend server hosted on cPanel using PuTTY'
         ],
         logo: negbuy,
-        link: 'https://www.negbuy.com'
+        link: ''
     },
     {
-        key: 2,
+        key: 3,
         company: 'AWC Software Pvt. Ltd',
         duration: 'June 2023 – August 2023',
         position: 'Django Trainee',

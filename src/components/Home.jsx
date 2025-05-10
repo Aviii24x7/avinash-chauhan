@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { HiArrowCircleRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <h2 className="text-2xl sm:text-5xl font-bold text-[#8092b0]">
-        A Software Developer  currently engineering Backend APIs for web platforms.
+        A Software Developer, currently engineering Scalable Backend Solutions.
         </h2>
 
         <p className="text-[#8892b0] py-4 max-w-[700px]">

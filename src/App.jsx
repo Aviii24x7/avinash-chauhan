@@ -11,7 +11,6 @@ import Contacts from './components/Contacts'
 import Footer from './components/Footer'
 import Experience from './components/Experience'
 
-
 function App() {
 
   return (
@@ -24,6 +23,7 @@ function App() {
     <Projects />
     <Contacts />
     <Footer />
+    
     </>
     )
 }
